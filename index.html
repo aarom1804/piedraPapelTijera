@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-        <h1>Piedra👊, Papel🤚, Tijera✌</h1>
+        <h1>Piedra👊, Papel🤚, Tijera✌️</h1>
     </div>
 
     <div>
@@ -17,10 +17,14 @@
 
     <div class="content">
         <div class="player">
-            <h2>PLAYER</h2>
-            <input type="radio" name="option" value="👊" onchange="optionSelected()">Piedra
-            <input type="radio" name="option" value="🤚" onchange="optionSelected()">Papel
-            <input type="radio" name="option" value="✌" onchange="optionSelected()">Tijera
+            <div class="titulo-1">
+                <h2>PLAYER</h2>
+            </div>
+            <div class="inputs">
+                <input type="radio" name="option" value="👊" onchange="optionSelected()">Piedra
+                <input type="radio" name="option" value="🤚" onchange="optionSelected()">Papel
+                <input type="radio" name="option" value="✌️" onchange="optionSelected()">Tijera
+            </div>
         </div>
         <div class="vs">
             <p>VS</p>
@@ -29,13 +33,13 @@
             <p id="valueComputer"></p>
             <h2>COMPUTER</h2>
         </div>
-        <div class="result">
-            <p id="playerResult">PLAYER </p>
-            <p id="text"></p>
-            <p id="computerResult">COMPUTER</p>
-        </div>
+        
     </div>
-    
+    <div class="result">
+        <p id="playerResult"> </p>
+        <p id="text"></p>
+        <p id="computerResult"></p>
+    </div>
 
     <script src="main.js"></script>
 </body>
